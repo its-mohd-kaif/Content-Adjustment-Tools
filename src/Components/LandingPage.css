@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+}
+
+.container__left {
+  width: 65%;
+  padding: 1em;
+}
+
+.container__right {
+  width: 40%;
+  background-color: rgb(231, 231, 231);
+  padding: 1em;
+}
+
+.linkDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.link {
+  padding: 10px 20px;
+  background-color: lightgray;
+}
+
+.tools__div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlightDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight__left,
+.highlight__right {
+  padding: 15px 20px;
+  background-color: #b8daee;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.3em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.arrowBtn {
+  background: transparent;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+.magnifierDiv {
+  border: 1px solid black;
+  height: 150px;
+  width: 350px;
+  overflow-x: auto;
+  background-color: rgb(194, 194, 194);
+  font-size: larger;
+}
